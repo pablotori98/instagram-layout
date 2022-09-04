@@ -1,0 +1,70 @@
+
+body{
+font-family: 'Noto Sans', sans-serif;
+background: rgb(185, 185, 185);
+margin-top : 0;
+padding-top: 0;
+
+}
+
+/*Let's define fonts
+thin - 100
+medium - 500
+bold - 700
+*/
+
+h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.date p{
+    font-weight: 100;
+}
+
+.description p{
+    font-weight: 500;
+    margin: 0;
+}
+
+
+.header{
+    background: white;
+    text-align: center;
+    margin: -20px;
+    margin-bottom: 10px;
+    
+}
+
+.header h1{
+    padding: 10px;
+}
+
+#post{
+    width: 500px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 5px;
+}
+
+#post img{
+    width: 100%;
+}
+
+.photo img{
+    padding: 0;
+    margin: 0;
+}
+
+
+.titleanddate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 20px;
+    padding: 10px;
+    }
+
+.description{
+    padding: 1px 15px;
+}
